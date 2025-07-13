@@ -1,0 +1,12 @@
+databases:
+  - name: worldfacts_db
+    databaseName: worldfacts
+    user: worldfacts_user
+    plan: free
+
+services:
+  - type: web
+    name: worldfacts-backend
+    env: docker
+    plan: free
+    database: worldfacts_db

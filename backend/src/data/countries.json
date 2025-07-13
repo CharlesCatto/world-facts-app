@@ -1,0 +1,19 @@
+[
+	{
+		"id": 1,
+		"name": "France",
+		"population": 67390000,
+		"area": 640679,
+		"languages": ["French"],
+		"hemisphere": "north",
+		"avgTemperature": 12.3,
+		"politicalOrientation": {
+			"leaning": "center",
+			"intensity": "moderate"
+		},
+		"majorCities": [
+			{ "name": "Paris", "population": 2148000, "isCapital": true },
+			{ "name": "Marseille", "population": 870000, "isCapital": false }
+		]
+	}
+]
